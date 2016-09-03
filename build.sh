@@ -13,7 +13,7 @@ mkdir "./$workpath"
 cd "./$workpath"
 
 echo "Calling script"
-python3 ../scrape.py
+python ../scrape.py
 
 echo "Setting up git"
 git init
