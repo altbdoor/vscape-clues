@@ -1,0 +1,19 @@
+/* elements */
+html {overflow-y:scroll; min-width:320px}
+body {padding:50px 0}
+h1 {margin-top:0}
+.container h4 {margin-bottom:30px; padding-bottom:15px; border-bottom:1px solid #eee}
+
+/* bootstrap */
+.panel-body {padding-bottom:5px}
+.panel-body > ul {padding-left:15px}
+
+/* custom */
+.img-100 {width:100%}
+.mt-10 {margin-top:10px}
+.mb-10 {margin-bottom:10px}
+.typeahead.dropdown-menu {max-width:100%; left:15px; right:15px}
+.typeahead.dropdown-menu > li > a {white-space:normal}
+#search-result {padding-top:15px; border-top:1px solid #eee}
+#search-result > .row {margin:0 -5px}
+#search-result > .row > div {padding:0 5px}
