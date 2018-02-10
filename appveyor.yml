@@ -6,7 +6,7 @@ skip_tags: true
 environment:
   PYTHON_PATH: C:\Python35
   GH_TOKEN:
-    secure: UCQIa6hxhDMnG2fr/+gVbyZZQCFN0a5+aVwmUsIGUA6vWvAYIY8NVCcc0kRxhR5x
+    secure: WQwA4HqCL3uX7WlY6iqVc5IBrtkn/TS2ZSkQaCXY/MU8TrZJ1w4S2E2huNdQpCF8
 install:
 - cmd: >-
     set PATH=C:\Program Files\Git\usr\bin;%PYTHON_PATH%;%PATH%
