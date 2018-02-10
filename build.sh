@@ -25,6 +25,6 @@ git add .
 git commit -m "[appveyor] updated data on $timestamp"
 
 echo "Pushing"
-git push --force --quiet "https://$username:${GH_TOKEN}@github.com/$username/$reponame.git" master:$branchname > /dev/null 2>&1
+git push --force "https://$username:${GH_TOKEN}@github.com/$username/$reponame.git" master:$branchname
 
 echo "Done"
